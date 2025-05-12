@@ -44,10 +44,11 @@ export default defineConfig({
       }
     })
   ],
-  base: isProd ? 'https://functional.kiransturt.co.uk' : '/',
+  base: isProd ? 'https://v1.sflexplorer.kiransturt.co.uk' : '/',
   server: {
     fs: {
       strict: false,
     },
   },
 })
+ 
